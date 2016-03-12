@@ -1,0 +1,8 @@
+{
+	"notifyOnOutdatedLocal" : {
+		"title" : "notify outdated local packages",
+		"description" : "show notification, if one local packages is outdated",
+		"type" : "boolean",
+		"default" : true
+	}
+}
