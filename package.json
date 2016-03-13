@@ -7,7 +7,7 @@
 		"npm",
 		"version",
 		"outdated",
-		"package.json",
+		"package.json"
  	],
   "repository": "https://github.com/AnWeber/atom-npm-outdated",
   "license": "MIT",
