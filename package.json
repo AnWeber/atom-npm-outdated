@@ -3,7 +3,12 @@
   "main": "./lib/init",
   "version": "0.2.0",
   "description": "Extension for atom, which validates the package.json for outdated dependencies",
-  "keywords": [],
+  "keywords": [
+		"npm",
+		"version",
+		"outdated",
+		"package.json",
+ 	],
   "repository": "https://github.com/AnWeber/atom-npm-outdated",
   "license": "MIT",
   "engines": {
