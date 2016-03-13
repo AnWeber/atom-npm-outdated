@@ -1,7 +1,19 @@
 {
-	"notifyOnOutdatedLocal" : {
-		"title" : "notify outdated local packages",
-		"description" : "show notification, if one local packages is outdated",
+	"notifyOutdated" : {
+		"title" : "notify outdated packages",
+		"description" : "show info notification, if one package is outdated",
+		"type" : "boolean",
+		"default" : true
+	},
+	"notifyUpdate" : {
+		"title" : "notify outdated packages, but not wanted",
+		"description" : "show info notification, if one package is outdated, but doesn't satisfy version range in package.json",
+		"type" : "boolean",
+		"default" : true
+	},
+	"checkDevDependencies" : {
+		"title" : "check dev dependencies",
+		"description" : "check dev dependencies",
 		"type" : "boolean",
 		"default" : true
 	}
