@@ -2,14 +2,24 @@
 	"notifyOutdated" : {
 		"title" : "notify outdated packages",
 		"description" : "show info notification, if one package is outdated",
-		"type" : "boolean",
-		"default" : true
+		"type" : "string",
+		"default": "manual",
+    "enum": [
+      {"value": "manual", "label" : "notification is manually dismissed", "description": "notification is manually dismissed"},
+	    {"value": "automatic", "label" : "notification is dismissed by timeout", "description": "notification is dismissed by timeout"},
+	    {"value": "none", "label" : "no notification", "description": "no notification"}
+    ]
 	},
 	"notifyUpdate" : {
 		"title" : "notify outdated packages, but not wanted",
 		"description" : "show info notification, if one package is outdated, but doesn't satisfy version range in package.json",
-		"type" : "boolean",
-		"default" : true
+		"type" : "string",
+		"default": "automatic",
+    "enum":  [
+      {"value": "manual", "label" : "notification is manually dismissed", "description": "notification is manually dismissed"},
+	    {"value": "automatic", "label" : "notification is dismissed by timeout", "description": "notification is dismissed by timeout"},
+	    {"value": "none", "label" : "no notification", "description": "no notification"}
+    ]
 	},
 	"checkDevDependencies" : {
 		"title" : "check dev dependencies",
