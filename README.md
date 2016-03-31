@@ -42,7 +42,8 @@ the package automatically watches every project in atom. If the project uses a p
   * show info notification, if one package is outdated, but doesn't satisfy version range
 * check dev dependencies
   * enable/disable check of dev dependencies
-
+* check beta version
+	* enable check for beta property of npm.distTags
 ## License
 
 MIT © Andreas Weber
