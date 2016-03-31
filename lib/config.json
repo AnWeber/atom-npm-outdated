@@ -26,5 +26,11 @@
 		"description" : "check dev dependencies",
 		"type" : "boolean",
 		"default" : true
+	},
+	"checkBetaVersions" : {
+		"title" : "check beta versions",
+		"description" : "check npm.distTags.beta",
+		"type" : "boolean",
+		"default" : false
 	}
 }
