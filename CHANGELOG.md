@@ -1,3 +1,6 @@
+## 0.6.0
+* fixed issue with project without package.json
+
 ## 0.4.0 - notification redesign
 * sorted and grouped dependencies in notification
 * notification behaviour can be configured (manual dismiss, automatic dismiss, no notification)
